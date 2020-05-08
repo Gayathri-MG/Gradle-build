@@ -2,7 +2,7 @@ pipeline {
 
  agent any
  tools {
-        gradle "GRADLE_LATEST"
+        gradle "gradle-5.2.1"
     }
  
   options {
