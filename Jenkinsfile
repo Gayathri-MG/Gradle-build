@@ -27,7 +27,7 @@ pipeline {
 				sh '''
 				
 				cd ${WORKSPACE}
-				gradlew build
+				./gradlew build
 				'''
 			}
 		}
