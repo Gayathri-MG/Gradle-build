@@ -23,9 +23,9 @@ pipeline {
 		steps {
 			script {
 				sh '''
-				gradle -v
-				// cd ${WORKSPACE}
-				// ./gradlew build
+				
+				cd ${WORKSPACE}
+				gradle build
 				'''
 			}
 		}
