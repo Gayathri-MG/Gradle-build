@@ -27,6 +27,7 @@ pipeline {
 				sh '''
 				
 				cd ${WORKSPACE}
+				dos2unix ./gradlew
 				./gradlew build
 				'''
 			}
